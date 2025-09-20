@@ -96,7 +96,7 @@ int main()
     std::cout << "double min = " << std::numeric_limits<double>::min() << std::endl;
     std::cout << "double max = " << std::numeric_limits<double>::max() << std::endl;
 
-    long double ld = 3.14159L;
+    long double ld = 3.14159;
     std::cout << "ld = " << ld << std::endl;
     std::cout << "type ld = " << typeid(ld).name() << std::endl;
     std::cout << "size ld = " << sizeof(ld) << std::endl;
@@ -115,4 +115,5 @@ int main()
     std::cout << "i*d2=" << i*d2 << std::endl;
 
     return 0;
+
 }
